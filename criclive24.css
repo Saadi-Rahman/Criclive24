@@ -41,14 +41,16 @@ div#scroll_menu {width:100%; height: 40px; background: #033a4f; padding: 0px; op
 
 #scroll_menu a {color: white; text-decoration: none; display: inline-block}
 
-/* css for nevigation; main menu (main_menu); header; all page */
+
+
+/* css for nevigation; main menu (main_menu); all page */
 
 a {
 	text-decoration: none;
 	display: inline-block;
 }
 
-.main_menu {min-height: 45px; background: #033a4f; margin-top: 1px; z-index: 99999; position: sticky}
+.main_menu {min-height: 45px; background: #033a4f; margin-top: 1px; z-index: 99999; position: sticky; top: 0}
 
 .main_menu ul {margin: 0; padding: 0; list-style: none; line-height: 25px}
 
@@ -112,7 +114,7 @@ a {
 
 .main_menu ul.mega_team li a:hover {width: 125px; font-size: 12px; letter-spacing: 2px}
 
-/* nevigation; search box (search-box); header; all page */
+/* nevigation; search box (search-box); all page */
 
 /* (1st design)
 
@@ -155,19 +157,15 @@ i {padding: 8px}
 
 
 
+/* css for current results (crnt_res); home page */
 
+.crnt_res {width:100%; height: 111px; overflow: auto; margin-top: 7px; border-radius: 10px}
 
+.crnt_res ul{margin:0; padding:0; list-style:none; line-height: 25px}
 
+.crnt_res li{float:left; margin: 0px}
 
-/* css for secondary nevigation (sub_menu); header; home page */
-
-.sub_menu {width:100%; height: 111px; overflow: auto; margin-top: 7px; border-radius: 10px}
-
-.sub_menu ul{margin:0; padding:0; list-style:none; line-height: 25px}
-
-.sub_menu li{float:left; margin: 0px}
-
-.sub_menu ul li a {background: #ffffff; text-decoration: none; width: 199px; display: block; text-align: left; color: black; font-size:12px; letter-spacing: 1px; padding: 17px; margin: 0.5px}
+.crnt_res ul li a {background: #ffffff; text-decoration: none; width: 199px; display: block; text-align: left; color: black; font-size:12px; letter-spacing: 1px; padding: 17px; margin: 0.5px}
 
 
 /*menu1 using: news, teams, Bangladesh, Players_BD */
